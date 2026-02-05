@@ -1,0 +1,75 @@
+body {
+  background: #8fd9f6;
+}
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.smurf-img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.Title{
+  font-family: Cartoon Madness Regular;
+  color: #d60812ff;
+  
+}
+
+    @font-face {
+    font-family: Cartoon Madness Regular;
+    font-style: normal;
+    font-weight: normal;
+    src: url(CartoonMadness.woff);
+    }
+
+h3{
+  color: #d60812ff
+}
+
+.reset{
+ display: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #72cbed;
+  background-color: rgba(143, 217, 246, 0.23);
+  border: 3px solid #8fd9f6ff;
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #72cbed;
+  background-color: rgba(143, 217, 246, 0.23);
+  border: 3px solid #8fd9f6ff;
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+label{
+  cursor: pointer;
+}
