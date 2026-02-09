@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 body {
   background: #8fd9f6;
 }
 
 .container{
-  max-width: 500px;
+  width: 90%;
   margin: 0 auto;
   background: white;
   padding: 20px;
@@ -18,19 +20,22 @@ body {
 }
 
 .Title{
-  font-family: Cartoon Madness Regular;
+  font-family:  "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
   color: #d60812ff;
   
 }
 
-    @font-face {
-    font-family: Cartoon Madness Regular;
-    font-style: normal;
-    font-weight: normal;
-    src: url(CartoonMadness.woff);
-    }
+.Subtitle{
+   font-family:  "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 h3{
+  font-family: 'Times New Roman', Times, serif;
   color: #d60812ff
 }
 
