@@ -85,7 +85,7 @@ if(desribeValue === "smart" && knownValue === "leadership"){
 
 }else if (desribeValue === "charismatic" && knownValue === "leadership"){
     smurf.src = "https://pbs.twimg.com/media/BQhXsoSCEAE5dME.png";
-  title.innerHTML = "You Are..."
+  title.innerHTML = "You Are...";
   subtitle.innerHTML = "Papa Smurf";
    QA.style.display = "none"; 
   button.style.display = "none";
